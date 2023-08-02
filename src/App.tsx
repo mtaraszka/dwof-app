@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from "react-query";
-import "./api/globals";
+import "./api/axios-defaults";
 import { AppRouter } from "./routes/AppRouter";
 
 const queryClient = new QueryClient();

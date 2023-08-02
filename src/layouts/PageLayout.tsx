@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import styles from "./layouts.module.scss";
+import Footer from "../components/footer/index";
 
 export const PageLayout = () => {
   return (
@@ -8,7 +9,7 @@ export const PageLayout = () => {
       <main>
         <Outlet/>
       </main>
-      <footer>Stopka</footer>
+      <Footer/>
     </div>
   )
 }
